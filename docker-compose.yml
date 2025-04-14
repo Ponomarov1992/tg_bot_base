@@ -1,0 +1,15 @@
+services:
+  tg-bot:
+    build: .
+    container_name: tg-bot
+    command: python -m src
+    volumes:
+      - .:/usr/src/
+    env_file: .env
+    networks:
+      - bot-network
+
+networks:
+  bot-network:
+    external:
+      name: crm-network

@@ -1,0 +1,233 @@
+2024-08-23 15:17:13.530 | INFO     | src.bot:main:19 - Bot is running
+2024-08-23 15:17:13.692 | INFO     | src.bot:post_init:9 - Initializing database engine
+2024-08-23 15:22:33.768 | INFO     | src.bot:main:19 - Bot is running
+2024-08-23 15:22:34.004 | INFO     | src.bot:post_init:9 - Initializing database engine
+2024-08-23 15:24:41.231 | INFO     | src.bot:main:19 - Bot is running
+2024-08-23 15:24:42.086 | INFO     | src.bot:post_init:9 - Initializing database engine
+2024-08-23 15:27:44.743 | INFO     | src.bot:main:19 - Bot is running
+2024-08-23 15:27:44.913 | INFO     | src.bot:post_init:9 - Initializing database engine
+2024-09-02 11:18:21.944 | INFO     | src.bot:main:20 - Bot is running
+2024-09-02 11:18:49.944 | ERROR    | src.api:post_request:22 - Error while making a request: Cannot connect to host localhost:8000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('127.0.0.1', 8000), [Errno 61] Connect call failed ('::1', 8000, 0, 0)]
+2024-09-02 11:18:49.945 | ERROR    | src.api:log_request:33 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}, resp={'error': "Cannot connect to host localhost:8000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('127.0.0.1', 8000), [Errno 61] Connect call failed ('::1', 8000, 0, 0)]"}
+2024-09-02 11:30:26.240 | INFO     | src.bot:main:20 - Bot is running
+2024-09-02 11:30:52.974 | ERROR    | src.api:log_request:33 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}, resp={'telegram_data': ['This field is required.']}
+2024-09-02 11:34:47.500 | INFO     | src.bot:main:20 - Bot is running
+2024-09-02 11:34:55.554 | SUCCESS  | src.api:log_request:31 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'id': 1, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}
+2024-09-02 11:36:52.088 | INFO     | src.bot:main:20 - Bot is running
+2024-09-02 11:36:59.361 | ERROR    | src.api:log_request:33 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'phone_number': ['client with this phone number already exists.'], 'telegram_data': {'tg_id': ['telegram client with this tg id already exists.']}}
+2024-09-02 11:42:42.071 | INFO     | src.bot:main:20 - Bot is running
+2024-09-02 11:42:52.780 | SUCCESS  | src.api:log_request:31 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'id': 2, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}
+2024-09-02 11:52:20.992 | INFO     | src.bot:main:20 - Bot is running
+2024-09-02 11:52:30.848 | SUCCESS  | src.api:log_request:31 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'id': 3, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}
+2024-09-02 11:58:24.462 | INFO     | src.bot:main:20 - Bot is running
+2024-09-02 11:58:30.040 | ERROR    | src.api:log_request:33 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'phone_number': ['client with this phone number already exists.'], 'telegram_data': {'tg_id': ['telegram client with this tg id already exists.']}}
+2024-09-02 11:59:18.260 | INFO     | src.bot:main:20 - Bot is running
+2024-09-02 11:59:22.558 | SUCCESS  | src.api:log_request:31 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'id': 4, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}
+2024-09-02 11:59:22.574 | INFO     | src.commands.start_cmd:handler_contact:82 - User successfully created: UserModel: self.id=1, self.tg_id=853717431, self.external_id=4, self.full_name='Фрилансер 👨\u200d💻'
+2024-09-02 17:41:37.273 | INFO     | src.bot:main:20 - Bot is running
+2024-09-02 17:44:36.501 | INFO     | src.bot:main:20 - Bot is running
+2024-09-02 18:14:46.323 | INFO     | src.bot:main:22 - Bot is running
+2024-09-02 20:41:33.923 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 12:14:29.940 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 12:18:21.725 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 12:22:37.565 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 12:38:15.919 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 12:39:05.482 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 12:47:03.047 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 12:59:07.839 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 13:06:03.066 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 13:13:43.569 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 13:51:28.958 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 14:19:54.719 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 14:20:26.197 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 14:30:23.794 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 17:03:36.295 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 17:14:16.916 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 17:17:38.265 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 17:26:16.397 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 17:26:51.296 | ERROR    | src.api:log_request:33 - Create consultation, url='/api/v1/consultations/', data={'user_id': 4, 'question': 'My kitchen is 14m2'}, resp={'client_note': ['This field is required.'], 'client': ['This field is required.']}
+2024-09-04 17:30:53.793 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 17:31:04.400 | ERROR    | src.api:log_request:33 - Create consultation, url='/api/v1/consultations/', data={'user_id': 4, 'question': 'My kitchen is 14m2', 'client': 4, 'client_note': 'My kitchen is 14m2'}, resp={'client': ['Invalid pk "4" - object does not exist.']}
+2024-09-04 17:32:57.546 | INFO     | src.bot:main:22 - Bot is running
+2024-09-04 17:33:21.739 | SUCCESS  | src.api:log_request:31 - Create client, url='/api/v1/clients/', data={'first_name': 'Ekateryna', 'last_name': 'Ponomarova', 'phone_number': '380507433013', 'telegram_data': {'tg_id': 470209020, 'username': 'Katrinkate96', 'language_code': 'ru'}}, resp={'id': 5, 'first_name': 'Ekateryna', 'last_name': 'Ponomarova', 'phone_number': '380507433013'}
+2024-09-04 17:34:01.975 | SUCCESS  | src.api:log_request:31 - Create consultation, url='/api/v1/consultations/', data={'user_id': 5, 'question': 'My kitchen is 14m2', 'client': 5, 'client_note': 'My kitchen is 14m2'}, resp={'client_note': 'My kitchen is 14m2', 'client': 5}
+2024-09-14 11:43:12.469 | INFO     | src.bot:main:14 - Bot is running
+2024-09-14 12:07:44.128 | SUCCESS  | src.api:log_request:36 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'id': 6, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}
+2024-09-14 12:09:31.678 | SUCCESS  | src.api:log_request:36 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'id': 7, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}
+2024-09-14 12:09:39.894 | DEBUG    | src.commands.consultation:consultation_start:15 - Start consultation
+2024-09-14 12:09:40.198 | DEBUG    | src.commands.consultation:consultation_start:23 - User is not registered
+2024-09-14 12:11:36.846 | DEBUG    | src.commands.consultation:consultation_start:15 - Start consultation
+2024-09-14 12:11:37.098 | DEBUG    | src.commands.consultation:consultation_start:23 - User is not registered
+2024-09-14 12:21:08.637 | INFO     | src.bot:main:14 - Bot is running
+2024-09-14 12:21:26.423 | DEBUG    | src.commands.consultation:consultation_start:15 - Start consultation
+2024-09-14 12:21:26.600 | DEBUG    | src.commands.consultation:consultation_start:23 - User is not registered
+2024-09-14 12:22:09.969 | INFO     | src.bot:main:14 - Bot is running
+2024-09-14 12:22:19.406 | DEBUG    | src.commands.consultation:consultation_start:15 - Start consultation
+2024-09-14 12:22:19.421 | ERROR    | src.api:log_request:38 - Get user by tg id, /api/v1/clients/, req_data={'tg_id': 853717431}, resp={'detail': 'Method "GET" not allowed.'}
+2024-09-14 12:22:19.620 | DEBUG    | src.commands.consultation:consultation_start:23 - User is not registered
+2024-09-14 12:25:45.527 | DEBUG    | src.commands.consultation:consultation_start:15 - Start consultation
+2024-09-14 12:25:45.555 | SUCCESS  | src.api:log_request:36 - Get user by tg id, /api/v1/clients/, req_data={'tg_id': 853717431}, resp={'count': 2, 'next': None, 'previous': None, 'results': [{'id': 5, 'first_name': 'Ekateryna', 'last_name': 'Ponomarova', 'phone_number': '380507433013'}, {'id': 7, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-14 12:25:45.849 | DEBUG    | src.commands.consultation:consultation_start:27 - Prompt for consultation
+2024-09-14 12:27:35.215 | DEBUG    | src.commands.consultation:consultation_end:32 - Consultation end
+2024-09-14 12:27:35.216 | DEBUG    | src.commands.consultation:consultation_end:37 - Creating consultation in CRM for user 853717431
+2024-09-14 12:27:35.237 | SUCCESS  | src.api:log_request:36 - Create consultation, url='/api/v1/consultations/', data={'client': 5, 'client_note': 'Give me pleace price'}, resp={'id': 2, 'client': 5, 'client_note': 'Give me pleace price'}
+2024-09-14 12:27:35.238 | DEBUG    | src.commands.consultation:consultation_end:41 - Consultation created in CRM
+2024-09-14 12:30:15.159 | INFO     | src.bot:main:16 - Bot is running
+2024-09-14 12:30:36.778 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_start:15 - Start kitchen measurement
+2024-09-14 12:30:36.789 | SUCCESS  | src.api:log_request:36 - Get user by tg id, /api/v1/clients/, req_data={'tg_id': 853717431}, resp={'count': 2, 'next': None, 'previous': None, 'results': [{'id': 5, 'first_name': 'Ekateryna', 'last_name': 'Ponomarova', 'phone_number': '380507433013'}, {'id': 7, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-14 12:30:37.001 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_start:27 - Prompt for kitchen area
+2024-09-14 12:31:31.550 | DEBUG    | src.commands.kitchen_measurements:process_kitchen_area:32 - Processing kitchen area
+2024-09-14 12:31:31.723 | DEBUG    | src.commands.kitchen_measurements:process_kitchen_area:44 - Prompt for user note
+2024-09-14 12:32:23.192 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_end:49 - End kitchen measurement
+2024-09-14 12:33:29.570 | INFO     | src.bot:main:16 - Bot is running
+2024-09-14 12:33:37.530 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_start:15 - Start kitchen measurement
+2024-09-14 12:33:37.539 | SUCCESS  | src.api:log_request:36 - Get user by tg id, /api/v1/clients/, req_data={'tg_id': 853717431}, resp={'count': 2, 'next': None, 'previous': None, 'results': [{'id': 5, 'first_name': 'Ekateryna', 'last_name': 'Ponomarova', 'phone_number': '380507433013'}, {'id': 7, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-14 12:33:37.727 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_start:27 - Prompt for kitchen area
+2024-09-14 12:33:44.880 | DEBUG    | src.commands.kitchen_measurements:process_kitchen_area:32 - Processing kitchen area
+2024-09-14 12:33:45.053 | DEBUG    | src.commands.kitchen_measurements:process_kitchen_area:44 - Prompt for user note
+2024-09-14 12:33:56.401 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_end:49 - End kitchen measurement
+2024-09-14 12:34:39.343 | INFO     | src.bot:main:16 - Bot is running
+2024-09-14 12:34:42.279 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_start:15 - Start kitchen measurement
+2024-09-14 12:34:42.297 | SUCCESS  | src.api:log_request:36 - Get user by tg id, /api/v1/clients/, req_data={'tg_id': 853717431}, resp={'count': 2, 'next': None, 'previous': None, 'results': [{'id': 5, 'first_name': 'Ekateryna', 'last_name': 'Ponomarova', 'phone_number': '380507433013'}, {'id': 7, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-14 12:34:42.467 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_start:27 - Prompt for kitchen area
+2024-09-14 12:34:47.789 | DEBUG    | src.commands.kitchen_measurements:process_kitchen_area:32 - Processing kitchen area
+2024-09-14 12:34:47.994 | DEBUG    | src.commands.kitchen_measurements:process_kitchen_area:44 - Prompt for user note
+2024-09-14 12:35:03.508 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_end:49 - End kitchen measurement
+2024-09-14 12:35:03.527 | SUCCESS  | src.api:log_request:36 - Create kitchen measurement, url='/api/v1/kitchen-measurements/', data={'client': 5, 'area': 14, 'client_note': 'Кухня угловая. Высота потолков три метра'}, resp={'area': 14, 'client_note': 'Кухня угловая. Высота потолков три метра', 'client': 5}
+2024-09-14 12:35:03.527 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_end:64 - Kitchen measurement created in CRM
+2024-09-14 12:37:32.762 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_start:15 - Start kitchen measurement
+2024-09-14 12:37:32.775 | SUCCESS  | src.api:log_request:36 - Get user by tg id, /api/v1/clients/, req_data={'tg_id': 853717431}, resp={'count': 2, 'next': None, 'previous': None, 'results': [{'id': 5, 'first_name': 'Ekateryna', 'last_name': 'Ponomarova', 'phone_number': '380507433013'}, {'id': 7, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-14 12:37:32.952 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_start:27 - Prompt for kitchen area
+2024-09-14 12:37:56.884 | DEBUG    | src.commands.kitchen_measurements:process_kitchen_area:32 - Processing kitchen area
+2024-09-14 12:37:57.059 | DEBUG    | src.commands.kitchen_measurements:process_kitchen_area:44 - Prompt for user note
+2024-09-14 12:38:04.758 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_end:49 - End kitchen measurement
+2024-09-14 12:38:04.778 | SUCCESS  | src.api:log_request:36 - Create kitchen measurement, url='/api/v1/kitchen-measurements/', data={'client': 5, 'area': 14, 'client_note': 'Кухня угловая. Высота потолков три метра'}, resp={'area': 14, 'client_note': 'Кухня угловая. Высота потолков три метра', 'client': 5}
+2024-09-14 12:38:04.779 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_end:64 - Kitchen measurement created in CRM
+2024-09-14 12:42:25.663 | INFO     | src.bot:main:16 - Bot is running
+2024-09-14 12:42:30.011 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_start:15 - Start kitchen measurement
+2024-09-14 12:42:30.022 | SUCCESS  | src.api:log_request:36 - Get user by tg id, /api/v1/clients/, req_data={'tg_id': 853717431}, resp={'count': 2, 'next': None, 'previous': None, 'results': [{'id': 5, 'first_name': 'Ekateryna', 'last_name': 'Ponomarova', 'phone_number': '380507433013'}, {'id': 7, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-14 12:42:30.100 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_start:27 - Prompt for kitchen area
+2024-09-14 12:42:35.396 | DEBUG    | src.commands.kitchen_measurements:process_kitchen_area:32 - Processing kitchen area
+2024-09-14 12:42:35.606 | DEBUG    | src.commands.kitchen_measurements:process_kitchen_area:44 - Prompt for user note
+2024-09-14 12:42:40.020 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_end:49 - End kitchen measurement
+2024-09-14 12:42:40.032 | SUCCESS  | src.api:log_request:36 - Create kitchen measurement, url='/api/v1/kitchen-measurements/', data={'client': 5, 'area': 123, 'client_note': 'fhsdjfjdn'}, resp={'area': 123, 'client_note': 'fhsdjfjdn', 'client': 5}
+2024-09-14 12:42:40.032 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_end:65 - Kitchen measurement created in CRM
+2024-09-16 12:36:20.945 | INFO     | src.bot:main:16 - Bot is running
+2024-09-16 12:37:36.756 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 0, 'next': None, 'previous': None, 'results': []}
+2024-09-16 12:37:41.160 | SUCCESS  | src.api:log_request:40 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'id': 8, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}
+2024-09-16 12:37:48.940 | DEBUG    | src.commands.consultation:consultation_start:15 - Start consultation
+2024-09-16 12:37:48.948 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 8, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-16 12:37:49.169 | DEBUG    | src.commands.consultation:consultation_start:27 - Prompt for consultation
+2024-09-16 12:38:29.371 | DEBUG    | src.commands.consultation:consultation_end:32 - Consultation end
+2024-09-16 12:38:29.371 | DEBUG    | src.commands.consultation:consultation_end:37 - Creating consultation in CRM for user 853717431
+2024-09-16 12:38:29.383 | SUCCESS  | src.api:log_request:40 - Create consultation, url='/api/v1/consultations/', data={'client': 8, 'client_note': 'Подскажите какие этапы сотрудничества с Вами. Есть определенная кухня которая меня интересует.'}, resp={'id': 3, 'client': 8, 'client_note': 'Подскажите какие этапы сотрудничества с Вами. Есть определенная кухня которая меня интересует.'}
+2024-09-16 12:38:29.383 | DEBUG    | src.commands.consultation:consultation_end:41 - Consultation created in CRM
+2024-09-16 12:38:36.854 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_start:15 - Start kitchen measurement
+2024-09-16 12:38:36.864 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 8, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-16 12:38:37.106 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_start:27 - Prompt for kitchen area
+2024-09-16 12:38:44.423 | DEBUG    | src.commands.kitchen_measurements:process_kitchen_area:32 - Processing kitchen area
+2024-09-16 12:38:44.604 | DEBUG    | src.commands.kitchen_measurements:process_kitchen_area:44 - Prompt for user note
+2024-09-16 12:39:46.580 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_end:49 - End kitchen measurement
+2024-09-16 12:39:46.591 | SUCCESS  | src.api:log_request:40 - Create kitchen measurement, url='/api/v1/kitchen-measurements/', data={'client': 8, 'area': 15, 'client_note': 'Кухня угловая. Интересует три блока. Варочный, мойка и рабочая панель с подвесными шкафчиками.'}, resp={'area': 15, 'client_note': 'Кухня угловая. Интересует три блока. Варочный, мойка и рабочая панель с подвесными шкафчиками.', 'client': 8}
+2024-09-16 12:39:46.592 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_end:64 - Kitchen measurement created in CRM
+2024-09-16 15:20:28.699 | INFO     | src.bot:main:27 - Bot is running
+2024-09-16 15:20:40.706 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 8, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-16 15:20:59.174 | DEBUG    | src.commands.consultation:consultation_start:15 - Start consultation
+2024-09-16 15:20:59.183 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 8, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-16 15:20:59.354 | DEBUG    | src.commands.consultation:consultation_start:27 - Prompt for consultation
+2024-09-16 15:25:39.672 | INFO     | src.bot:main:27 - Bot is running
+2024-09-16 15:25:49.255 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 0, 'next': None, 'previous': None, 'results': []}
+2024-09-16 15:25:52.035 | SUCCESS  | src.api:log_request:40 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'id': 9, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}
+2024-09-20 12:58:18.096 | INFO     | src.bot:main:27 - Bot is running
+2024-09-20 13:02:07.115 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 0, 'next': None, 'previous': None, 'results': []}
+2024-09-20 13:02:07.325 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 0, 'next': None, 'previous': None, 'results': []}
+2024-09-20 13:02:14.084 | SUCCESS  | src.api:log_request:40 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'id': 10, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}
+2024-09-20 13:02:33.828 | DEBUG    | src.commands.consultation:consultation_start:15 - Start consultation
+2024-09-20 13:02:33.838 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 10, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-20 13:02:34.012 | DEBUG    | src.commands.consultation:consultation_start:27 - Prompt for consultation
+2024-09-20 13:03:46.735 | DEBUG    | src.commands.consultation:consultation_end:32 - Consultation end
+2024-09-20 13:03:46.735 | DEBUG    | src.commands.consultation:consultation_end:37 - Creating consultation in CRM for user 853717431
+2024-09-20 13:03:46.748 | SUCCESS  | src.api:log_request:40 - Create consultation, url='/api/v1/consultations/', data={'client': 10, 'client_note': 'Меня интересует процесс сотрудничества с Вами. Как проходят замеры. Какой процент предоплаты. Какие сроки выполнения работы?'}, resp={'id': 5, 'client': 10, 'client_note': 'Меня интересует процесс сотрудничества с Вами. Как проходят замеры. Какой процент предоплаты. Какие сроки выполнения работы?'}
+2024-09-20 13:03:46.748 | DEBUG    | src.commands.consultation:consultation_end:41 - Consultation created in CRM
+2024-09-20 13:04:36.423 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_start:15 - Start kitchen measurement
+2024-09-20 13:04:36.431 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 10, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-20 13:04:36.679 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_start:27 - Prompt for kitchen area
+2024-09-20 13:05:41.798 | DEBUG    | src.commands.kitchen_measurements:process_kitchen_area:32 - Processing kitchen area
+2024-09-20 13:05:42.038 | DEBUG    | src.commands.kitchen_measurements:process_kitchen_area:44 - Prompt for user note
+2024-09-20 13:06:56.624 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_end:49 - End kitchen measurement
+2024-09-20 13:06:56.638 | SUCCESS  | src.api:log_request:40 - Create kitchen measurement, url='/api/v1/kitchen-measurements/', data={'client': 10, 'area': 23, 'client_note': 'Высота потолков 2,5 метров. Кухня нужна угловая состоящая из 5 блоков. Варочная панель, рабочая панель, мойка, два блока для хранения посуды.'}, resp={'area': 23, 'client_note': 'Высота потолков 2,5 метров. Кухня нужна угловая состоящая из 5 блоков. Варочная панель, рабочая панель, мойка, два блока для хранения посуды.', 'client': 10}
+2024-09-20 13:06:56.638 | DEBUG    | src.commands.kitchen_measurements:kitchen_measurement_end:64 - Kitchen measurement created in CRM
+2024-09-20 13:39:37.486 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 10, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-20 13:40:16.345 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 10, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-20 13:40:36.527 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 10, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-21 18:29:21.290 | INFO     | src.bot:main:25 - Bot is running
+2024-09-21 18:30:08.619 | INFO     | src.bot:main:25 - Bot is running
+2024-09-21 18:30:19.131 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 0, 'next': None, 'previous': None, 'results': []}
+2024-09-21 18:30:23.051 | SUCCESS  | src.api:log_request:40 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'id': 1, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}
+2024-09-21 18:30:41.185 | DEBUG    | src.commands.consultation:consultation_start:15 - Start consultation
+2024-09-21 18:30:41.194 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 1, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-21 18:30:41.421 | DEBUG    | src.commands.consultation:consultation_start:27 - Prompt for consultation
+2024-09-21 18:31:24.810 | DEBUG    | src.commands.consultation:consultation_end:32 - Consultation end
+2024-09-21 18:31:24.811 | DEBUG    | src.commands.consultation:consultation_end:37 - Creating consultation in CRM for user 853717431
+2024-09-21 18:31:24.822 | SUCCESS  | src.api:log_request:40 - Create consultation, url='/api/v1/consultations/', data={'client': 1, 'client_note': 'Меня интересует какие условия сотрудничества, сумма задатка и сроки изготовления кухни.'}, resp={'id': 1, 'client': 1, 'client_note': 'Меня интересует какие условия сотрудничества, сумма задатка и сроки изготовления кухни.', 'area': None, 'room_name': ''}
+2024-09-21 18:31:24.822 | DEBUG    | src.commands.consultation:consultation_end:41 - Consultation created in CRM
+2024-09-22 11:06:18.667 | INFO     | src.bot:main:25 - Bot is running
+2024-09-22 11:06:54.551 | ERROR    | src.api:log_request:42 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'detail': 'Method "GET" not allowed.'}
+2024-09-22 11:07:22.400 | SUCCESS  | src.api:log_request:40 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'id': 1, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}
+2024-09-22 11:16:34.464 | DEBUG    | src.commands.consultation:consultation_start:15 - Start consultation
+2024-09-22 11:16:34.471 | ERROR    | src.api:log_request:42 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'detail': 'Method "GET" not allowed.'}
+2024-09-22 11:16:34.669 | DEBUG    | src.commands.consultation:consultation_start:23 - User is not registered
+2024-09-22 11:16:39.793 | ERROR    | src.api:log_request:42 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'detail': 'Method "GET" not allowed.'}
+2024-09-22 11:16:46.024 | ERROR    | src.api:log_request:42 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'phone_number': ['client with this phone number already exists.'], 'telegram_data': {'tg_id': ['telegram client with this tg id already exists.']}}
+2024-09-22 11:24:06.914 | INFO     | src.bot:main:27 - Bot is running
+2024-09-22 11:24:17.175 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 0, 'next': None, 'previous': None, 'results': []}
+2024-09-22 11:24:39.333 | SUCCESS  | src.api:log_request:40 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'id': 1, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}
+2024-09-22 11:34:48.742 | INFO     | src.bot:main:25 - Bot is running
+2024-09-22 11:34:49.135 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 0, 'next': None, 'previous': None, 'results': []}
+2024-09-22 11:34:53.359 | SUCCESS  | src.api:log_request:40 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'id': 1, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}
+2024-09-22 11:34:57.616 | DEBUG    | src.commands.consultation:consultation_start:15 - Start consultation
+2024-09-22 11:34:57.625 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 1, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-22 11:34:57.701 | DEBUG    | src.commands.consultation:consultation_start:27 - Prompt for consultation
+2024-09-22 11:35:17.407 | DEBUG    | src.commands.consultation:consultation_end:32 - Consultation end
+2024-09-22 11:35:17.407 | DEBUG    | src.commands.consultation:consultation_end:37 - Creating consultation in CRM for user 853717431
+2024-09-22 11:35:17.421 | SUCCESS  | src.api:log_request:40 - Create consultation, url='/api/v1/consultations/', data={'client': 1, 'client_note': 'Привет. Какие условия сотрудничества с Вами.?'}, resp={'id': 1, 'client': 1, 'client_note': 'Привет. Какие условия сотрудничества с Вами.?', 'area': None, 'room_name': ''}
+2024-09-22 11:35:17.421 | DEBUG    | src.commands.consultation:consultation_end:41 - Consultation created in CRM
+2024-09-22 14:41:35.463 | INFO     | src.bot:main:25 - Bot is running
+2024-09-22 14:42:00.488 | DEBUG    | src.commands.consultation:consultation_start:18 - Start consultation
+2024-09-22 14:42:00.499 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 1, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-22 14:42:01.011 | DEBUG    | src.commands.consultation:consultation_start:30 - Prompt for consultation
+2024-09-22 14:43:54.251 | SUCCESS  | src.api:log_request:40 - Create consultation, url='/api/v1/consultations/', data={'client': 1, 'client_note': 'Подскажите пожалуйста можно ли мне рассчитать стоимость кухни и какие сроки выполнения работ?', 'room_name': 'kitchen', 'area': 18}, resp={'id': 2, 'client': 1, 'client_note': 'Подскажите пожалуйста можно ли мне рассчитать стоимость кухни и какие сроки выполнения работ?', 'area': 18, 'room_name': 'kitchen'}
+2024-09-22 14:43:54.252 | DEBUG    | src.commands.consultation:save_room_area:82 - Consultation created in CRM
+2024-09-22 14:46:01.685 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 208810129}, resp={'count': 0, 'next': None, 'previous': None, 'results': []}
+2024-09-22 14:46:04.191 | SUCCESS  | src.api:log_request:40 - Create client, url='/api/v1/clients/', data={'first_name': 'Ihor', 'last_name': 'Peresunko', 'phone_number': '380991756596', 'telegram_data': {'tg_id': 208810129, 'username': 'iperesunko', 'language_code': 'uk'}}, resp={'id': 2, 'first_name': 'Ihor', 'last_name': 'Peresunko', 'phone_number': '380991756596'}
+2024-09-22 14:46:06.809 | DEBUG    | src.commands.consultation:consultation_start:18 - Start consultation
+2024-09-22 14:46:06.817 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 208810129}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 2, 'first_name': 'Ihor', 'last_name': 'Peresunko', 'phone_number': '380991756596'}]}
+2024-09-22 14:46:06.930 | DEBUG    | src.commands.consultation:consultation_start:30 - Prompt for consultation
+2024-09-22 14:46:17.254 | SUCCESS  | src.api:log_request:40 - Create consultation, url='/api/v1/consultations/', data={'client': 2, 'client_note': 'МОй вопрос', 'room_name': '', 'area': 45}, resp={'id': 3, 'client': 2, 'client_note': 'МОй вопрос', 'area': 45, 'room_name': ''}
+2024-09-22 14:46:17.255 | DEBUG    | src.commands.consultation:save_room_area:82 - Consultation created in CRM
+2024-09-22 14:50:51.960 | INFO     | src.bot:main:25 - Bot is running
+2024-09-22 14:53:59.276 | INFO     | src.bot:main:25 - Bot is running
+2024-09-22 14:54:06.063 | DEBUG    | src.commands.consultation:consultation_start:18 - Start consultation
+2024-09-22 14:54:06.080 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 1, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-22 14:54:06.254 | DEBUG    | src.commands.consultation:consultation_start:30 - Prompt for consultation
+2024-09-22 14:55:23.291 | SUCCESS  | src.api:log_request:40 - Create consultation, url='/api/v1/consultations/', data={'client': 1, 'client_note': 'Что то из консультаций', 'room_name': '', 'area': 27}, resp={'id': 4, 'client': 1, 'client_note': 'Что то из консультаций', 'area': 27, 'room_name': ''}
+2024-09-22 14:55:23.292 | DEBUG    | src.commands.consultation:save_room_area:88 - Consultation created in CRM
+2024-09-22 15:04:26.713 | INFO     | src.bot:main:25 - Bot is running
+2024-09-22 15:07:47.578 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 470209020}, resp={'count': 0, 'next': None, 'previous': None, 'results': []}
+2024-09-22 15:08:12.557 | SUCCESS  | src.api:log_request:40 - Create client, url='/api/v1/clients/', data={'first_name': 'Ekateryna', 'last_name': 'Ponomarova', 'phone_number': '380507433013', 'telegram_data': {'tg_id': 470209020, 'username': 'Katrinkate96', 'language_code': 'ru'}}, resp={'id': 3, 'first_name': 'Ekateryna', 'last_name': 'Ponomarova', 'phone_number': '380507433013'}
+2024-09-22 15:08:15.584 | DEBUG    | src.commands.consultation:consultation_start:18 - Start consultation
+2024-09-22 15:08:15.592 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 470209020}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 3, 'first_name': 'Ekateryna', 'last_name': 'Ponomarova', 'phone_number': '380507433013'}]}
+2024-09-22 15:08:15.699 | DEBUG    | src.commands.consultation:consultation_start:30 - Prompt for consultation
+2024-09-22 15:09:09.100 | SUCCESS  | src.api:log_request:40 - Create consultation, url='/api/v1/consultations/', data={'client': 3, 'client_note': 'Тестирование бота', 'room_name': 'bedroom', 'area': 35}, resp={'id': 5, 'client': 3, 'client_note': 'Тестирование бота', 'area': 35, 'room_name': 'bedroom'}
+2024-09-22 15:09:09.100 | DEBUG    | src.commands.consultation:save_room_area:88 - Consultation created in CRM
+2024-09-23 12:33:53.979 | INFO     | src.bot:main:25 - Bot is running
+2024-09-23 12:34:08.626 | DEBUG    | src.commands.consultation:consultation_start:18 - Start consultation
+2024-09-23 12:34:08.649 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 0, 'next': None, 'previous': None, 'results': []}
+2024-09-23 12:34:08.894 | DEBUG    | src.commands.consultation:consultation_start:26 - User is not registered
+2024-09-23 12:34:12.415 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 0, 'next': None, 'previous': None, 'results': []}
+2024-09-23 12:34:18.797 | SUCCESS  | src.api:log_request:40 - Create client, url='/api/v1/clients/', data={'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535', 'telegram_data': {'tg_id': 853717431, 'username': 'freelance_dad', 'language_code': 'ru'}}, resp={'id': 1, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}
+2024-09-23 12:34:25.015 | DEBUG    | src.commands.consultation:consultation_start:18 - Start consultation
+2024-09-23 12:34:25.025 | SUCCESS  | src.api:log_request:40 - Get user by tg id, url=/api/v1/clients/, query_params={'tg_id': 853717431}, resp={'count': 1, 'next': None, 'previous': None, 'results': [{'id': 1, 'first_name': 'Фрилансер', 'last_name': '👨\u200d💻', 'phone_number': '380501053535'}]}
+2024-09-23 12:34:25.260 | DEBUG    | src.commands.consultation:consultation_start:30 - Prompt for consultation
+2024-09-23 12:34:48.678 | SUCCESS  | src.api:log_request:40 - Create consultation, url='/api/v1/consultations/', data={'client': 1, 'client_note': 'Таталмьмл поптаоатал аосомоаьа', 'room_name': '', 'area': 317}, resp={'id': 1, 'client': 1, 'client_note': 'Таталмьмл поптаоатал аосомоаьа', 'area': 317, 'room_name': ''}
+2024-09-23 12:34:48.678 | DEBUG    | src.commands.consultation:save_room_area:89 - Consultation created in CRM

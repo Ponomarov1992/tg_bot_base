@@ -1,0 +1,14 @@
+[tool.ruff]
+# Allow lines to be as long as 120.
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.format]
+# Prefer single quotes over double quotes.
+quote-style = "single"
+skip-magic-trailing-comma = true
+
+[tool.isort]
+py_version=312
+line_length=120
+multi_line_output=5

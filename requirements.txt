@@ -1,0 +1,4 @@
+aiohttp==3.10.5
+greenlet==3.0.3
+loguru==0.7.2
+python-telegram-bot==21.5

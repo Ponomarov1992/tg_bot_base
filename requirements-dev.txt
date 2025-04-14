@@ -1,0 +1,7 @@
+-r requirements.txt
+ipython
+isort
+pre-commit
+pytest-mock==3.14.0
+pytest==8.3.2
+ruff
